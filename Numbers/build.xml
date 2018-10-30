@@ -23,7 +23,8 @@
       <junit printsummary="yes" haltonfailure="yes">
         <classpath refid="class.path"/>
         <classpath location="bin"/>
-        <formatter type="plain"/>
+        <formatter type="xml"/>
+      	<formatter type="plain"/>
         <batchtest fork="yes" todir="report">
            <fileset dir="test">
               <include name="**/*java"/>

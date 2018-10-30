@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="5CD7033NL3" name="devops.numbers.NumberWordsTests" skipped="0" tests="5" time="0.157" timestamp="2018-10-30T12:41:24">
+<testsuite errors="0" failures="0" hostname="5CD7033NL3" name="devops.numbers.NumberWordsTests" skipped="0" tests="5" time="0.076" timestamp="2018-10-30T13:59:07">
   <properties>
     <property name="ant.project.invoked-targets" value="dist" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -54,7 +54,7 @@
     <property name="user.name" value="evikrat" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_181" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner devops.numbers.NumberWordsTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\report\TEST-devops.numbers.NumberWordsTests.xml crashfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junitvmwatcher3867492323167100550.properties propsfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junit5420695906750212969.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner devops.numbers.NumberWordsTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\report\TEST-devops.numbers.NumberWordsTests.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\report\TEST-devops.numbers.NumberWordsTests.txt crashfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junitvmwatcher3937283065080575789.properties propsfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junit6679162265368332852.properties" />
     <property name="sun.arch.data.model" value="64" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="user.language" value="en" />
@@ -77,7 +77,7 @@
   <testcase classname="devops.numbers.NumberWordsTests" name="number100To999Test05" time="0.003" />
   <testcase classname="devops.numbers.NumberWordsTests" name="number10To19Test03" time="0.0" />
   <testcase classname="devops.numbers.NumberWordsTests" name="numberOutOfRangeReturnsErrorTest01" time="0.0" />
-  <testcase classname="devops.numbers.NumberWordsTests" name="number20To99Test04" time="0.001" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="number20To99Test04" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

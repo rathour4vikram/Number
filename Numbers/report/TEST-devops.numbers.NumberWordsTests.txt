@@ -1,8 +1,8 @@
 Testsuite: devops.numbers.NumberWordsTests
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec
 
-Testcase: number1To9Test02 took 0 sec
-Testcase: number100To999Test05 took 0.01 sec
+Testcase: number1To9Test02 took 0.002 sec
+Testcase: number100To999Test05 took 0.003 sec
 Testcase: number10To19Test03 took 0 sec
 Testcase: numberOutOfRangeReturnsErrorTest01 took 0 sec
 Testcase: number20To99Test04 took 0 sec
