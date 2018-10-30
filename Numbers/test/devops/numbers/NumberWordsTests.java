@@ -93,8 +93,8 @@ public class NumberWordsTests {
                 		
                 	}
                 	word = word.trim();
-                	System.out.println( i ) ;
-                	System.out.println( word ) ;
+ //               	System.out.println( i ) ;
+//                	System.out.println( word ) ;
                 	
                 	Assert.assertEquals( "Test05", word, numberWords.toWords( i ) ) ;
                 }
