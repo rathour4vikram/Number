@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="5CD7033NL3" name="devops.numbers.NumberWordsTests" skipped="0" tests="5" time="0.157" timestamp="2018-10-30T12:41:24">
+  <properties>
+    <property name="ant.project.invoked-targets" value="dist" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin" />
+    <property name="java.vm.version" value="25.181-b13" />
+    <property name="ant.library.dir" value="C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib" />
+    <property name="ant.file.Numbers" value="C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\build.xml" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers" />
+    <property name="java.runtime.version" value="1.8.0_181-b13" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="eclipse.pdebuild.scripts" value="C:\Users\evikrat\eclipse\java-2018-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.100.v20180828-1915\scripts" />
+    <property name="basedir" value="C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="C:\Users\evikrat\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="ant.home" value="C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="eclipse.pdebuild.templates" value="C:\Users\evikrat\eclipse\java-2018-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.100.v20180828-1915\templates" />
+    <property name="ant.project.name" value="Numbers" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="eclipse.pdebuild.home" value="C:\Users\evikrat\eclipse\java-2018-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.100.v20180828-1915\." />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\ProgramÿFiles (x86)\Java\jdk1.7.0_11\jre\bin\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\evikrat\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\evikrat\AppData\Local\Programs\Python\Python37\;C:\Python27\;C:\Users\evikrat\AppData\Local\Programs\Python\Python36\;C:\Windows\system32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\evikrat\AppData\Local\atom\bin;C:\Users\evikrat\AppData\Roaming\npm;C:\Users\evikrat\Desktop;;." />
+    <property name="java.class.version" value="52.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file" value="C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\build.xml" />
+    <property name="user.home" value="C:\Users\evikrat" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.type.Numbers" value="file" />
+    <property name="java.class.path" value="C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\lib\test\hamcrest-core-1.3.jar;C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\lib\test\junit-4.12.jar;C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\bin;C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-launcher.jar;C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar;C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit.jar;C:\Users\evikrat\.p2\pool\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit4.jar" />
+    <property name="user.name" value="evikrat" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_181" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner devops.numbers.NumberWordsTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\report\TEST-devops.numbers.NumberWordsTests.xml crashfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junitvmwatcher3867492323167100550.properties propsfile=C:\Users\evikrat\Desktop\test\devops-project-3-master\Numbers\junit5420695906750212969.properties" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="en" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="jar" value="Numbers.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="main-class" value="devops.numbers.NumberWordsApplication" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="devops.numbers.NumberWordsTests" name="number1To9Test02" time="0.001" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="number100To999Test05" time="0.003" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="number10To19Test03" time="0.0" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="numberOutOfRangeReturnsErrorTest01" time="0.0" />
+  <testcase classname="devops.numbers.NumberWordsTests" name="number20To99Test04" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
