@@ -4,7 +4,7 @@ public class NumberWords {
 
         public String toWords( int number ) {
                 String result = "" ;
-                if ( number < 0 || number > 9999){
+                if ( number < 0 || number > 999){
                         result = "Number out of range";
                 } else if ( number >= 1 && number < 10) {
                         String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
