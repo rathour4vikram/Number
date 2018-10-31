@@ -13,12 +13,12 @@ public class NumberWordsTests {
         }
 
         @Test
-        public void numberOutOfRangeReturnsErrorTest01() {
+        public void numberOutOfRangeReturnsError() {
                 Assert.assertEquals( "Test01", "Number out of range", numberWords.toWords( -1 ) ) ;
         }
         
         @Test
-        public void number1To9Test02() {
+        public void numberRangeBetweenOneToNine() {
                 String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                 int i  = 0;
                 for(String word : SingleDigit){
@@ -29,7 +29,7 @@ public class NumberWordsTests {
         }
         
         @Test
-        public void number10To19Test03() {
+        public void numberRangeBetweenTenToNineteen() {
                 String[] DoubleDigit = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen","Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
                 int i  = 9;
                 for(String word : DoubleDigit){
@@ -40,7 +40,7 @@ public class NumberWordsTests {
         }
 
         @Test
-        public void number20To99Test04() {
+        public void numberRangeBetweenTwentyToNinetyNine() {
                 String[] DoubleDigitMultipleOf10 = {"Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
                 String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                 int i  = 19;
@@ -62,7 +62,7 @@ public class NumberWordsTests {
                 }
         
         @Test
-        public void number100To999Test05() {
+        public void numberRangeBetweenHundredToNineHundredNinetyNine() {
         	String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
             String[] DoubleDigitMultipleOf10 = {"Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
             String[] place = {"Unit", "Ten", "Hundred"};
