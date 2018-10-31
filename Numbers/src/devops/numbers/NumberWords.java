@@ -4,15 +4,15 @@ public class NumberWords {
 
         public String toWords( int number ) {
                 String result = "" ;
-                if ( number < 0 || number > 999){
+                if ( number <= 0 || number > 999 ){
                         result = "Number out of range";
-                } else if ( number >= 1 && number < 10) {
+                } else if ( number >= 1 && number <= 9 ) {
                         String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                         result = SingleDigit[number - 1];
                 }else if (number >= 10 && number <= 19 ){
                         String[] DoubleDigit = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen","Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
                         result = DoubleDigit[number - 10];
-                }else if ( number > 19 && number < 100 ) {
+                }else if ( number >= 20 && number <= 99 ) {
                 	String[] DoubleDigitMultipleOf10 = {"Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
                     String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                     	int digit_unit = number % 10;
