@@ -14,10 +14,10 @@ public class NumberWordsTests {
 
         @Test
         public void numberOutOfRangeReturnsError() {
-                Assert.assertEquals( "Test01", "Number out of range", numberWords.toWords( -1 ) ) ;
-                Assert.assertEquals( "Test01", "Number out of range", numberWords.toWords( 1000 ) ) ;
-                Assert.assertEquals( "Test01", "Number out of range", numberWords.toWords( 12000 ) ) ;
-                Assert.assertEquals( "Test01", "Number out of range", numberWords.toWords( 0 ) ) ;
+                Assert.assertEquals( "Test1.1", "Number out of range", numberWords.toWords( -1 ) ) ;
+                Assert.assertEquals( "Test1.2", "Number out of range", numberWords.toWords( 1000 ) ) ;
+                Assert.assertEquals( "Test1.3", "Number out of range", numberWords.toWords( 12000 ) ) ;
+                Assert.assertEquals( "Test1.4", "Number out of range", numberWords.toWords( 0 ) ) ;
         }
         
         @Test
@@ -26,9 +26,12 @@ public class NumberWordsTests {
                 int i  = 0;
                 for(String word : SingleDigit){
                 	i = i + 1;
-                	Assert.assertEquals( "Test02", word, numberWords.toWords( i ) ) ;
+                	String TestNo = "Test2." + i;
+                	System.out.println( TestNo ) ;
+                	Assert.assertEquals( TestNo, word, numberWords.toWords( i ) ) ;
                 }
                 
+                Assert.assertEquals( "Test2.10", "Five", numberWords.toWords( 5 ) ) ;
         }
         
         @Test
@@ -37,8 +40,12 @@ public class NumberWordsTests {
                 int i  = 9;
                 for(String word : DoubleDigit){
                 	i = i + 1;
-                	Assert.assertEquals( "Test03", word, numberWords.toWords( i ) ) ;
+                	String TestNo = "Test3." + (i - 9);
+                	System.out.println( TestNo ) ;
+                	Assert.assertEquals( TestNo, word, numberWords.toWords( i ) ) ;
                 }
+                
+                Assert.assertEquals( "Test3.11", "Twelve", numberWords.toWords( 12 ) ) ;
 
         }
 
@@ -57,11 +64,12 @@ public class NumberWordsTests {
                 	}else {
                 		word = DoubleDigitMultipleOf10[digit_ten - 2 ] + " " + SingleDigit[digit_unit - 1];
                 	}
-                	
-                	Assert.assertEquals( "Test04", word, numberWords.toWords( i ) ) ;
+                	String TestNo = "Test4." + (i - 19);
+                	System.out.println( TestNo ) ;
+                	Assert.assertEquals( TestNo, word, numberWords.toWords( i ) ) ;
                 }
                 	
-                     
+                   Assert.assertEquals( "Test4.81", "Eighty Nine", numberWords.toWords( 89 ) ) ;  
                 }
         
         @Test
@@ -98,10 +106,12 @@ public class NumberWordsTests {
                 	word = word.trim();
  //               	System.out.println( i ) ;
 //                	System.out.println( word ) ;
-                	
-                	Assert.assertEquals( "Test05", word, numberWords.toWords( i ) ) ;
+                	String TestNo = "Test5." + (i - 99);
+                	System.out.println( TestNo ) ;
+                	Assert.assertEquals( TestNo, word, numberWords.toWords( i ) ) ;
                 }
-                	
-                     
+                    Assert.assertEquals( "Test5.901", "One Hundred One", numberWords.toWords( 101 ) ) ;
+                    Assert.assertEquals( "Test5.901", "Four Hundred Eleven", numberWords.toWords( 411 ) ) ;
+                    Assert.assertEquals( "Test5.902", "Eight Hundred Thirteen", numberWords.toWords( 813 ) ) ; 
                 }
         }
