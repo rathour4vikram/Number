@@ -18,7 +18,7 @@ public class NumberWordsTests {
         }
         
         @Test
-        public void numberRangeBetweenOneToNine() {
+        public void numberRangeOneToNine() {
                 String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                 int i  = 0;
                 for(String word : SingleDigit){
@@ -29,7 +29,7 @@ public class NumberWordsTests {
         }
         
         @Test
-        public void numberRangeBetweenTenToNineteen() {
+        public void numberRangeTenToNineteen() {
                 String[] DoubleDigit = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen","Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
                 int i  = 9;
                 for(String word : DoubleDigit){
@@ -40,7 +40,7 @@ public class NumberWordsTests {
         }
 
         @Test
-        public void numberRangeBetweenTwentyToNinetyNine() {
+        public void numberRangeTwentyToNinetyNine() {
                 String[] DoubleDigitMultipleOf10 = {"Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
                 String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
                 int i  = 19;
@@ -62,7 +62,7 @@ public class NumberWordsTests {
                 }
         
         @Test
-        public void numberRangeBetweenHundredToNineHundredNinetyNine() {
+        public void numberRangeHundredToNineHundredNinetyNine() {
         	String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
             String[] DoubleDigitMultipleOf10 = {"Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
             String[] place = {"Unit", "Ten", "Hundred"};
