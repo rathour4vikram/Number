@@ -24,6 +24,7 @@ public class NumberWords {
                     	}
                 }else {
                 	String[] SingleDigit = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+                	String[] DoubleDigit = {"Eleven", "Twelve", "Thirteen", "Fourteen","Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
                     String[] DoubleDigitMultipleOf10 = {"Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty","Seventy", "Eighty", "Ninety"};
                     String[] place = {"Unit", "Ten", "Hundred"};
                     String word = "";
@@ -31,14 +32,22 @@ public class NumberWords {
                     int num = number;
                     int j = 0;
                     while ( num > 0 ) {
-                    	int digit = num % 10;
+                    	int digit = num % 10; int ten_digits = num % 100; 
                     	if ( digit == 0 ) {
                     		num = num / 10; j++;
                             continue;
                             }
-                        if (place[j] == "Unit") {
+                        if ( place[j] == "Unit" ) {
+                        	if (!( ten_digits >= 11 && ten_digits <= 19)) {
                         		
                         	word =  " " + SingleDigit[digit - 1] + word;
+                        	}else {
+                        		
+                        		word =  " " + DoubleDigit[ten_digits - 11] + word;
+                        		num = num / 100; j = j + 2;
+                        		continue;
+                        	}
+                        		
                         		
                         }else if(place[j] =="Ten"){
                         
