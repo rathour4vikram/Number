@@ -16,7 +16,7 @@ public final class NumberWordsApplication {
 	public void execute() {
 		while( true ) {
 			try {
-				System.out.printf( "Enter number (0 to exit): " ) ;
+				System.out.printf( "Enter number between [0 - 1000] (0 to exit): " ) ;
 				String value = reader.readLine() ;
 				int number = Integer.parseInt( value ) ;
 				if ( number == 0 ) {
